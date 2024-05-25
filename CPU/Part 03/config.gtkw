@@ -1,0 +1,50 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Tue Jan 25 19:16:19 2022
+[*]
+[dumpfile] "/mnt/c/4th SEM/CO 224 - Computer Architecture/CO 224 - LABS/Lab05/Part 03/cpu_wavedata_Ridmanew25_CPU.vcd"
+[dumpfile_mtime] "Tue Jan 25 18:55:10 2022"
+[dumpfile_size] 12196
+[savefile] "/mnt/c/4th SEM/CO 224 - Computer Architecture/CO 224 - LABS/Lab05/Part 03/config.gtkw"
+[timestart] 0
+[size] 948 471
+[pos] 32767 32767
+*-5.000000 46 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cpu_tb.
+[sst_width] 221
+[signals_width] 237
+[sst_expanded] 1
+[sst_vpaned_height] 107
+@28
+cpu_tb.mycpu.CLK
+@22
+cpu_tb.mycpu.PC[31:0]
+cpu_tb.mycpu.INSTRUCTION[31:0]
+@28
+cpu_tb.mycpu.RESET
+cpu_tb.mycpu.adder_Result[2:0]
+@22
+cpu_tb.mycpu.aluResult[7:0]
+@28
+cpu_tb.mycpu.alu_op[2:0]
+cpu_tb.mycpu.imm_trigger
+@22
+cpu_tb.mycpu.immediate[7:0]
+cpu_tb.mycpu.mux1_Out[7:0]
+cpu_tb.mycpu.mux2_Out[7:0]
+cpu_tb.mycpu.opcode[7:0]
+@28
+cpu_tb.mycpu.readReg1_add[2:0]
+cpu_tb.mycpu.readReg2_add[2:0]
+@22
+cpu_tb.mycpu.regOut1[7:0]
+cpu_tb.mycpu.regOut2[7:0]
+@28
+cpu_tb.mycpu.sub_trigger
+@22
+cpu_tb.mycpu.twoscomplement[7:0]
+@28
+cpu_tb.mycpu.writeReg_add[2:0]
+cpu_tb.mycpu.writeenable
+[pattern_trace] 1
+[pattern_trace] 0

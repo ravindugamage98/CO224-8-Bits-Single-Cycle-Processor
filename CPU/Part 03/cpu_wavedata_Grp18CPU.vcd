@@ -1,0 +1,62 @@
+$date
+	Thu Feb 03 11:14:26 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module CPU $end
+$scope module registerInstance $end
+$var reg 8 ! \register[0] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module CPU $end
+$scope module registerInstance $end
+$var reg 8 " \register[1] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module CPU $end
+$scope module registerInstance $end
+$var reg 8 # \register[2] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module CPU $end
+$scope module registerInstance $end
+$var reg 8 $ \register[3] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module CPU $end
+$scope module registerInstance $end
+$var reg 8 % \register[4] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module CPU $end
+$scope module registerInstance $end
+$var reg 8 & \register[5] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module CPU $end
+$scope module registerInstance $end
+$var reg 8 ' \register[6] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module CPU $end
+$scope module registerInstance $end
+$var reg 8 ( \register[7] [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx (
+bx '
+bx &
+bx %
+bx $
+bx #
+bx "
+bx !
+$end
+#5

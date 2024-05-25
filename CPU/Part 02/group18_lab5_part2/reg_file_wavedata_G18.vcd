@@ -1,0 +1,221 @@
+$date
+	Wed Jan 12 10:03:07 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module reg_file_tb $end
+$scope module myregfile $end
+$var reg 8 ! \registers[0] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module reg_file_tb $end
+$scope module myregfile $end
+$var reg 8 " \registers[1] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module reg_file_tb $end
+$scope module myregfile $end
+$var reg 8 # \registers[2] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module reg_file_tb $end
+$scope module myregfile $end
+$var reg 8 $ \registers[3] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module reg_file_tb $end
+$scope module myregfile $end
+$var reg 8 % \registers[4] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module reg_file_tb $end
+$scope module myregfile $end
+$var reg 8 & \registers[5] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module reg_file_tb $end
+$scope module myregfile $end
+$var reg 8 ' \registers[6] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module reg_file_tb $end
+$scope module myregfile $end
+$var reg 8 ( \registers[7] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module reg_file_tb $end
+$var wire 8 ) REGOUT2 [7:0] $end
+$var wire 8 * REGOUT1 [7:0] $end
+$var reg 1 + CLK $end
+$var reg 3 , READREG1 [2:0] $end
+$var reg 3 - READREG2 [2:0] $end
+$var reg 1 . RESET $end
+$var reg 8 / WRITEDATA [7:0] $end
+$var reg 1 0 WRITEENABLE $end
+$var reg 3 1 WRITEREG [2:0] $end
+$scope module myregfile $end
+$var wire 1 + CLK $end
+$var wire 8 2 IN [7:0] $end
+$var wire 3 3 INADDRESS [2:0] $end
+$var wire 8 4 OUT1 [7:0] $end
+$var wire 3 5 OUT1ADDRESS [2:0] $end
+$var wire 8 6 OUT2 [7:0] $end
+$var wire 3 7 OUT2ADDRESS [2:0] $end
+$var wire 1 . RESET $end
+$var wire 1 0 WRITE $end
+$var integer 32 8 count [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1000 8
+bx 7
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+bx 1
+00
+bx /
+0.
+bx -
+bx ,
+1+
+bx *
+bx )
+bx (
+bx '
+bx &
+bx %
+bx $
+bx #
+bx "
+bx !
+$end
+#4
+0+
+b100 -
+b100 7
+b0 ,
+b0 5
+1.
+#8
+1+
+#9
+b0 (
+b0 '
+b0 &
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+b1000 8
+#10
+0.
+#11
+b0 )
+b0 6
+b0 *
+b0 4
+#12
+10
+b1011111 /
+b1011111 2
+b10 1
+b10 3
+0+
+#16
+1+
+#17
+b1011111 #
+#19
+00
+#20
+b10 ,
+b10 5
+0+
+#22
+b1011111 *
+b1011111 4
+#24
+1+
+#27
+b1 ,
+b1 5
+10
+b11100 /
+b11100 2
+b1 1
+b1 3
+#28
+0+
+#29
+b0 *
+b0 4
+#32
+1+
+#33
+b11100 "
+#35
+b11100 *
+b11100 4
+00
+#36
+0+
+#40
+1+
+#43
+10
+b110 /
+b110 2
+b100 1
+b100 3
+#44
+0+
+#48
+1+
+#49
+b110 %
+#51
+b110 )
+b110 6
+b1111 /
+b1111 2
+#52
+0+
+#56
+1+
+#57
+b1111 %
+#59
+b1111 )
+b1111 6
+#60
+0+
+#61
+00
+#64
+1+
+#67
+10
+b110010 /
+b110010 2
+b111 1
+b111 3
+#68
+0+
+#72
+1+
+00
+#76
+0+
+#80
+1+
+#82

@@ -1,0 +1,49 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Tue Feb  8 17:10:05 2022
+[*]
+[dumpfile] "/mnt/c/4th SEM/CO 224 - Computer Architecture/CO 224 - LABS/Lab05/Part 04/cpu_wavedata_Grp18CPU.vcd"
+[dumpfile_mtime] "Tue Feb  8 16:54:02 2022"
+[dumpfile_size] 28323
+[savefile] "/mnt/c/4th SEM/CO 224 - Computer Architecture/CO 224 - LABS/Lab05/Part 04/config.gtkw"
+[timestart] 0
+[size] 948 471
+[pos] 32767 32767
+*-6.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cpu_tb.
+[treeopen] cpu_tb.mycpu.
+[treeopen] cpu_tb.mycpu.aluInstance.
+[sst_width] 44
+[signals_width] 190
+[sst_expanded] 0
+[sst_vpaned_height] 107
+@420
+cpu_tb.mycpu.CLK
+cpu_tb.mycpu.RESET
+cpu_tb.mycpu.controlUnitInstance.WRITE_ENABLE
+cpu_tb.mycpu.INSTRUCTION[31:0]
+cpu_tb.mycpu.PC[31:0]
+cpu_tb.mycpu.PCNEXT[31:0]
+@421
+cpu_tb.mycpu.PCJBeqNext[31:0]
+@420
+cpu_tb.mycpu.decoderInstance.OFFSET[7:0]
+cpu_tb.mycpu.shiftExtensionInstance.UPDATED_OFFSET[31:0]
+cpu_tb.mycpu.decoderInstance.IMMEDIATE[7:0]
+cpu_tb.mycpu.twoscomplementInstance.TWOS_COMPLEMENT[7:0]
+cpu_tb.mycpu.decoderInstance.OPCODE[7:0]
+cpu_tb.mycpu.registerInstance.INADDRESS[2:0]
+cpu_tb.mycpu.registerInstance.OUT1ADDRESS[2:0]
+cpu_tb.mycpu.registerInstance.OUT2ADDRESS[2:0]
+cpu_tb.mycpu.registerInstance.IN[7:0]
+cpu_tb.mycpu.registerInstance.REGOUT1[7:0]
+cpu_tb.mycpu.registerInstance.REGOUT2[7:0]
+cpu_tb.mycpu.controlUnitInstance.ALU_OP[2:0]
+cpu_tb.mycpu.aluInstance.BEQRESULT
+cpu_tb.mycpu.controlUnitInstance.J
+cpu_tb.mycpu.controlUnitInstance.BEQ
+cpu_tb.mycpu.mux1.MUXSELECT
+cpu_tb.mycpu.mux2.MUXSELECT
+cpu_tb.mycpu.MUX32Instance.BEQ_J_OK
+[pattern_trace] 1
+[pattern_trace] 0
